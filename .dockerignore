@@ -1,0 +1,48 @@
+# Exclude build artifacts
+**/bin
+**/obj
+
+# Exclude user-specific project files
+**/*.csproj.user
+**/*.dbmdl
+**/*.jfm
+
+# Exclude source control files
+**/.git
+**/.gitignore
+
+# Exclude development environment files
+**/.vs
+**/.vscode
+
+# Exclude Docker-related files
+**/docker-compose*
+**/Dockerfile*
+
+# Exclude dependency directories
+**/node_modules
+**/npm-debug.log
+
+# Exclude logs and temporary files
+**/*.log
+**/*.tmp
+
+# Exclude other unnecessary files
+**/.classpath
+**/.env
+**/.project
+**/.settings
+**/.toolstarget
+**/azds.yaml
+**/charts
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+
+# Allow specific files
+!**/.gitignore
+!.git/HEAD
+!.git/config
+!.git/packed-refs
+!.git/refs/heads/**
